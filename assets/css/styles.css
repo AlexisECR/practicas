@@ -96,3 +96,58 @@ footer {
 .correo {
   text-align: center;
 }
+
+.flex{
+    display:flex;
+    justify-content: flex-end;
+}
+
+
+.block{
+    display:block;
+}
+
+.mb-5{
+    margin-bottom: 5px;
+}
+
+form{
+
+}
+
+form > div{
+    max-width: 25%;
+    border:1px solid black;
+    margin:0 auto;
+    padding:20px;
+}
+
+form > div > div{
+    margin-bottom:15px;
+}
+
+form > div > div:last-child{
+   margin-bottom: 0;
+}
+
+form label{
+    font-weight: 700;
+}
+
+form input + label{
+   font-weight: normal;
+}
+
+form select{
+    width: 50%;
+}
+
+form input[type=text], form input[type=password], form textarea{
+    width:100%;
+}
+
+form textarea{
+    resize:none;
+}
+
+

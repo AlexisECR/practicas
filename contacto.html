@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TedEd</title>
+    <link rel="stylesheet" href="assets/css/normalize.css">
+    <link rel="stylesheet" href="assets/css/styles.css">
+</head>
+<body>
+<header>
+    <div>
+        <img src="assets/images/teded_logo.png" alt="Logo del mundo magico" style="width: 200px;height: 70px;">
+    </div>
+    <div>
+        <span class="resaltar">Register</span><span> or </span><span class="resaltar">Sing in</span>
+    </div>
+</header>
+<nav>
+    <ul class="menu">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="">News</a></li>
+        <li><a class="active" href="contacto.html">Contact</a></li>
+        <li><a href="">About</a></li>
+    </ul>
+</nav>
+<section class="test">
+    <h1>Contacto</h1>
+    <form method="get" >
+        <div>
+            <div>
+                <label class="mb-5" for="asunto">Asunto</label>
+                <input type="text" name="asunto" id="asunto" required>
+            </div>
+<!--            <div>-->
+<!--                <label class="mb-5" for="imagen">Carga Imagen</label>-->
+<!--                <input type="file" name="imagen" id="imagen" required >-->
+<!--            </div>-->
+            <div>
+                <label class="mb-5" for="password">Password</label>
+                <input type="password" name="password" id="password" required>
+            </div>
+
+            <div>
+                <label class="block mb-5" for="estado">Estado</label>
+                <select name="estado" id="estado">
+                    <option value="1">Baja California</option>
+                    <option value="2">Ciudad de Mexico</option>
+                    <option value="3">Sonora</option>
+                </select>
+            </div>
+
+            <div>
+                <input type="checkbox" name="recordar" id="recordar">
+                <label for="recordar">Recordar</label>
+            </div>
+            <div>
+                <input type="radio" name="sexo" id="hombre" value="1" checked required><label for="hombre">Hombre</label>
+                <input type="radio" name="sexo" id="mujer" value="2" required><label for="mujer">Mujer</label>
+            </div>
+            <div>
+                <label class="mb-5 block" for="detalle">Detalles</label>
+                <textarea name="detalle" id="detalle" cols="30" rows="10" required ></textarea>
+            </div>
+            <div class="flex">
+                <button>Send</button>
+            </div>
+        </div>
+
+    </form>
+</section>
+<aside>
+    <div class="anuncios">
+        <h3>Seccion de anuncios</h3>
+        <!--<img class="img_anuncio" src="assets/images/sabritas.jpg" alt="Anuncios">-->
+        <p>
+            Un párrafo, también llamado parágrafo, y este de es una unidad comunicativa del lenguaje
+            escrito compuesta por un conjunto de oraciones que tienen cierta unidad aksdaslkdjaslkd.
+        </p>
+        <h3>Seccion de anuncios</h3>
+        <!--<img class="img_anuncio" src="assets/images/sabritas.jpg" alt="Anuncios">-->
+        <p>
+            Un párrafo, también llamado parágrafo, y este de es una unidad comunicativa del lenguaje
+            escrito compuesta por un conjunto de oraciones que tienen cierta unidad tienen cierta unidad
+            aksdaslkdjaslkd.
+        </p>
+        <h3>Seccion de anuncios</h3>
+        <p>
+            Un párrafo, también llamado parágrafo, y este de es una unidad comunicativa del lenguaje
+            escrito compuesta por un conjunto de oraciones que tienen cierta unidad tienen cierta unidad
+            aksdaslkdjaslkd.
+        </p>
+
+    </div>
+</aside>
+<footer>
+    <h3>Autor: Alexis Eduardo Capistran Romero</h3>
+</footer>
+</body>
+</html>
